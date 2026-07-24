@@ -51,9 +51,11 @@ docker compose up --build
 - `PUT /inventory/:id/photo` — Update item photo
 - `POST /search` — Search item by ID
 
-## HTML Forms
-- `RegisterForm.html` — Register new inventory item
-- `SearchForm.html` — Search inventory by ID
+## HTML Forms & Navigation
+- `Menu.html` — Central menu page for navigating between forms (served at root `/`)
+- `RegisterForm.html` — Register new inventory item (with "Back to Menu")
+- `SearchForm.html` — Search inventory by ID (with "Back to Menu")
+- `Output.html` — Item details view page (with "Back to Menu")
 
 ## Database
 - MySQL table: `inventory` (see `init.sql` for schema)
